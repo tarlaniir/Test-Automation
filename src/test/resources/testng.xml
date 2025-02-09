@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SuiteWithInterceptor">
+    <listeners>
+        <listener class-name="priority.ReverseAlphabeticalInterceptor" />
+    </listeners>
+    <test name="PriorityTest">
+        <classes>
+            <class name="priority.Priority1"/>
+        </classes>
+    </test>
+</suite>

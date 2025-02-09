@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ParameterSuite">
+    <test name="LoginTestWithParameters">
+        <!-- Замените значения на реальные логин и пароль -->
+        <parameter name="email" value="BobKolin@example.com"/>
+        <parameter name="password" value="BobKolin"/>
+        <classes>
+            <class name="login.LoginTestParameters"/>
+        </classes>
+    </test>
+</suite>
