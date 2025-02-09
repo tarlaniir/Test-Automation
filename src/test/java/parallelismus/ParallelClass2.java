@@ -3,7 +3,7 @@ package parallelismus;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
 
-public class ParallelClass2 {
+public class ParallelClass2 { //lesson16
 
     @Test
     public void parallel6() throws InterruptedException {

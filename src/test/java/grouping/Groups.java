@@ -3,7 +3,7 @@ package grouping;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
 
-public class Groups {
+public class Groups { //lesson16
 
     @Test(groups = {"first"}, priority = 1)
     public void one() {
