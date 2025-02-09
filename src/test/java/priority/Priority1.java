@@ -3,7 +3,7 @@ package priority;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
 
-public class Priority1 {
+public class Priority1 { //lesson16
 
     @Test(priority = 7)
     public void a() {

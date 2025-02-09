@@ -12,7 +12,7 @@ import org.testng.annotations.Parameters;
 import static org.testng.Assert.assertTrue;
 import java.time.Duration;
 
-public class LoginTestParameters {
+public class LoginTestParameters { //lesson16
 
     @Test
     @Parameters({"email", "password"})
